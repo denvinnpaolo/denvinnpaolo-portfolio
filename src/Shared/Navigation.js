@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationContainer } from './Containers';
+import { NavigationContainer } from './Styles/Containers.js';
 
 const NavBar = (props) => {
     const navItems = ['home', 'about', 'portfolio', 'resume', 'contact']
