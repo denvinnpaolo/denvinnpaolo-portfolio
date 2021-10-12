@@ -43,6 +43,10 @@ export const SectionContainer = styled.div`
     border: 1px solid red;
     height: 33.3333%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
 
     ${(props) => 
         props.background &&
@@ -51,3 +55,8 @@ export const SectionContainer = styled.div`
         `
     }
 `;
+
+export const FeaturedList = styled.div`
+
+`
+

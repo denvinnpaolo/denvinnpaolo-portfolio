@@ -1,17 +1,14 @@
 import React from 'react';
 import { PageContainer } from '../../Shared/Styles/Containers.js';
 import NavBar from '../../Shared/Navigation';
-import HomeLanding from './HomeLanding.js';
-import HomeFeatured from './HomeFeatured.js';
-import HomePosts from './HomePosts.js'
+import LandingContainer from './LandingContainer.js';
+
 
 const HomeContainer = (props) => {
     return(
         <PageContainer custom height={'300vh'}>
             <NavBar />
-            <HomeLanding />
-            <HomeFeatured />
-            <HomePosts />
+            <LandingContainer />
             
         </PageContainer>
     );
