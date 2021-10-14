@@ -33,14 +33,14 @@ export const NavigationContainer = styled.div`
     padding-bottom: 4px;
     padding-left: 1%;
     padding-right: 1%;
-    
+    background: white;
+
     display: flex;
     justify-content: center;
     align-items: flex-end;
 `;
 
 export const SectionContainer = styled.div`
-    border: 1px solid red;
     height: 33.3333%;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,15 @@ export const SectionContainer = styled.div`
     }
 `;
 
-export const FeaturedList = styled.div`
+export const ListContainer = styled.div`
+    border: 1px solid red;
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 
 `
 
