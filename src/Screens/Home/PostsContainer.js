@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionContainer } from '../../Shared/Styles/Containers';
 
-const HomePosts = (props) => {
+const PostsContainer = (props) => {
     return(
         <SectionContainer background="purple">
             
@@ -9,4 +9,4 @@ const HomePosts = (props) => {
     );
 };
 
-export default HomePosts;
+export default PostsContainer;
